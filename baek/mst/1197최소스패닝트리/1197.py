@@ -22,7 +22,9 @@ def union(a: int, b: int) -> None:
     root2 = find(b)
     data[root2] = root1
 
-
+# mst 최소 스패닝 트리 -> n vertex n-1 edge tree => spnning tree
+# while mst 만드는 과정
+# 정석 코드
 while cnt < n - 1:
     a, b, c = edges.pop(0)
 
